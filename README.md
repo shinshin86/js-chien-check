@@ -58,3 +58,16 @@ node check.js 4
 
 参照 : [robots.txt](https://transit.yahoo.co.jp/robots.txt)
 
+
+
+## 実装について
+
+3種類のHTMLパーサ関連のライブラリをそれぞれ用いて実装しています。
+
+なお、リクエストにはどれも``request``を使用しています。
+
+| ファイル名      | 使用ライブラリ |
+| --------------- | -------------- |
+| check.js        | cheerio        |
+| check-jsdom.js  | jsdom          |
+| check-jssoup.js | jssoup         |
